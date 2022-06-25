@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+main{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: large;
+}
+h3{
+    text-align: center;
+    margin: 10px;
+}
+.container div{
+    background-color: rgb(124, 185, 241);
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(105, 177, 245);
+    padding: 10px;
+    color: hsla(0, 7%, 21%, 0.75);
+}
